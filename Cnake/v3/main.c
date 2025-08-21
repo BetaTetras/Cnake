@@ -104,8 +104,8 @@ void Information();
 void EasterEggs();
 
 /* -=- DEFINITION DE CONSTANTE -=- */
-const int X = 5; 
-const int Y = 5;
+const int X = 10; 
+const int Y = 10;
 
 /* -=- DEFINITION DES FONCTION -=- */
 
@@ -647,4 +647,5 @@ void HideCursor() {
 void gotoxy(int x, int y) {
     COORD coord = {x, y};
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+
 }
