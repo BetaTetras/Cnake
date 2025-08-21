@@ -180,7 +180,7 @@ void Information(){
     printf_GREEN("-=-=-=-=-=-=-=-=-=-=-=-=-=- INFORMATION -=-=-=-=-=-=-=-=-=-=-=-=-=-\n\n");
     printf_GREEN("Cnake est un mini-jeu programmee en C par Gregoire GIBRAT!\n\n");
     printf_GREEN("Version Cnake : ");printf_RED("v3\n\n");
-    printf_GREEN("Code source : ");printf_RED("????????????????\n\n");
+    printf_GREEN("Code source : ");printf_RED("https://github.com/BetaTetras/Cnake\n\n");
     printf_GREEN("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\n");
     printf_RED("PRESS ENTER > ");
     String Buffer = (String)calloc(10,sizeof(char));
@@ -649,3 +649,4 @@ void gotoxy(int x, int y) {
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 
 }
+
