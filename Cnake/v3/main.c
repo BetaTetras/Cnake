@@ -185,6 +185,7 @@ void Information(){
     printf_RED("PRESS ENTER > ");
     String Buffer = (String)calloc(10,sizeof(char));
     fgets(Buffer,100,stdin);
+    Buffer[strlen(Buffer)-1] = '\0';
     if(strcmp(Buffer,"Snake!") == 0){
         EasterEggs();
     }
@@ -649,4 +650,5 @@ void gotoxy(int x, int y) {
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 
 }
+
 
